@@ -5,22 +5,33 @@
 
 const button = document.querySelector(".showBtn")
 let text = document.getElementById("text")
-let infoLi = document.querySelector(".infoLi")
+let toggle = document.querySelector('.toggleCont')
+let toggleCircle = document.querySelector('.toggleCircle')
 
-infoLi.addEventListener("click", function(){
+
+toggle.addEventListener("click", function(){
+   toggleCircle.classList.toggle('move')
+   toggleCircle.classList.toggle('moveBack')
+})
+
+button.addEventListener("click", function(){
+    
+    /*
     console.log("button clicked")
-    /*if(!text.classList.contains("showTextBox")){
+    if(!text.classList.contains("showTextBox")){
     text.classList.remove('hiddenBox')
     text.classList.add('showTextBox')}
     else {
         text.classList.remove('showTextBox')
         text.classList.add('hiddenBox') } */
 
-    info.classList.toggle('showTextBox')
-    info.classList.toggle('hiddenBox')
+    text.classList.toggle('showTextBox')
+    text.classList.toggle('hiddenBox')
     
     
 })
+
+
 
 //Datatyper
 
