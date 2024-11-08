@@ -4,9 +4,21 @@
 // Legge det inn i variabler, bokser til å legge ting i
 
 const button = document.querySelector(".showBtn")
+let text = document.getElementById("text")
+let infoLi = document.querySelector(".infoLi")
 
-button.addEventListener("click", function(){
+infoLi.addEventListener("click", function(){
     console.log("button clicked")
+    /*if(!text.classList.contains("showTextBox")){
+    text.classList.remove('hiddenBox')
+    text.classList.add('showTextBox')}
+    else {
+        text.classList.remove('showTextBox')
+        text.classList.add('hiddenBox') } */
+
+    info.classList.toggle('showTextBox')
+    info.classList.toggle('hiddenBox')
+    
     
 })
 
