@@ -5,6 +5,33 @@
 
 //Datatyper
 
+//Number, String, Boloeon
+
+let age = 21
+
+const name = "Anders"
+
+let isPresent = true
+
+//Arrays, objects
+
+let passengers = ["Ania Kubow", "Kevin Powell", "Simo Edwin", "Thomas Cargill"]
+
+let flightInfo = {
+    isDelayed: true,
+    departure:{
+     time: "09.15",
+     airport: "Flesland ",
+     city: "Bergen" },
+
+     arrival:{
+        time: "06.30",
+        airport: "JFK",
+        city: "New York"
+     }
+
+}
+
 //Console.log
 
 //Hvordan skrive en funksjon
