@@ -3,6 +3,13 @@
 /* .querySelection() */
 // Legge det inn i variabler, bokser til å legge ting i
 
+const button = document.querySelector(".showBtn")
+
+button.addEventListener("click", function(){
+    console.log("button clicked")
+    
+})
+
 //Datatyper
 
 //Number, String, Boloeon
