@@ -11,7 +11,7 @@ let toggleCircle = document.querySelector('.toggleCircle')
 
 toggle.addEventListener("click", function(){
    toggleCircle.classList.toggle('move')
-   toggleCircle.classList.toggle('moveBack')
+   
 })
 
 button.addEventListener("click", function(){
@@ -70,6 +70,15 @@ let flightInfo = {
 
 /*
 function add(a, b) { return a + b; } */
+
+function addNumbers(a, b){
+    let sum = a+ b
+    console.log(sum)
+}
+
+addNumbers(3, 2)
+
+
 
 //Scope
 
