@@ -58,7 +58,7 @@ button{
   
 }
 
-.toggleCont{
+#toggleCont{
   width: 200px;
   height: 70px;
   border-radius: 40px;
@@ -67,16 +67,21 @@ button{
   align-items: center;
 }
 
-.toggleCircle{
+#toggleCircle{
   width: 72px;
   height: 72px;
   border-radius: 100%;
-  background-color: yellow
+  background-color: yellow;
+  
   
 }
 
 .move{
-  animation: moveball 400ms ease-in-out forwards;
+  animation: moveball 600ms ease-in-out forwards;
+}
+
+.moveBack{
+  animation: moveBack 600ms ease-in-out  forwards;
 }
 
 
@@ -85,9 +90,24 @@ button{
 @keyframes moveball {
   from{
     transform: translateX(0);
+    background-color: yellow;
   }
   to{
     transform: translateX(130px);
+    background-color: red
+  }
+}
+
+@keyframes moveBack {
+  from{
+    transform: translateX(130px);
+    background-color: red;
+    
+  }
+  to{
+    transform: translateX(0);
+    background-color: yellow;
+    
   }
 }
 
