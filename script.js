@@ -100,6 +100,10 @@ BONUS!
  1.Lag en ny knapp i HTML og gi den en id
  2. Lag en variabel hvor du kobler til den nye knappen
  3. Lag en eventListener som console.log "knapp er trykket" når du trykker på den
+
+ BONUS!
+
+ 4. Lag en animasjon i CSS som du skrur av og på med addEventlistener
  
 
 */
