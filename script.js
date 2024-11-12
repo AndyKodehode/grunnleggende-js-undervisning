@@ -122,7 +122,7 @@ let isPresent = true
 
 //Arrays, objects
 
-let passengers = ["Ania Kubow", "Kevin Powell", "Simo Edwin", "Thomas Cargill"]
+let passengers = ["Ania Kubow", "Kevin Powell", "DevolopedByEd", "Satori Graphics"]
 
 let flightInfo = {
     isDelayed: true,
